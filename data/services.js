@@ -1,3 +1,11 @@
+export const serviceCategories = [
+  { id: "all", label: "All Services" },
+  { id: "build", label: "Build" },
+  { id: "intelligence-infra", label: "Intelligence & Infrastructure" },
+  { id: "design-quality", label: "Design & Quality" },
+  { id: "growth-support", label: "Growth & Support" },
+];
+
 export const services = [
   {
     id: "software-development",
@@ -9,6 +17,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
     tags: ["Custom", "Scalable"],
+    category: "build",
+    accent: "#2563eb",
+    visual: "code",
   },
   {
     id: "web-development",
@@ -20,6 +31,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     tags: ["Responsive", "Fast"],
+    category: "build",
+    accent: "#2563eb",
+    visual: "browser",
   },
   {
     id: "ecommerce-development",
@@ -31,6 +45,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
     tags: ["Stores", "Payments"],
+    category: "build",
+    accent: "#2563eb",
+    visual: "store",
   },
   {
     id: "mobile-app-development",
@@ -42,6 +59,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
     tags: ["iOS", "Android"],
+    category: "build",
+    accent: "#2563eb",
+    visual: "phone",
   },
   {
     id: "saas-development",
@@ -53,6 +73,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
     tags: ["Dashboards", "Multi-tenant"],
+    category: "build",
+    accent: "#2563eb",
+    visual: "dashboard",
   },
   {
     id: "ai-automation",
@@ -64,6 +87,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
     tags: ["AI", "Workflows"],
+    category: "intelligence-infra",
+    accent: "#2563eb",
+    visual: "network",
   },
   {
     id: "cloud-devops",
@@ -75,6 +101,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
     tags: ["Cloud", "CI/CD"],
+    category: "intelligence-infra",
+    accent: "#2563eb",
+    visual: "cloud",
   },
   {
     id: "api-integration",
@@ -86,6 +115,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
     tags: ["REST", "Integrations"],
+    category: "intelligence-infra",
+    accent: "#2563eb",
+    visual: "api",
   },
   {
     id: "ui-ux-design",
@@ -97,6 +129,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1561070791-2526d30994b8?auto=format&fit=crop&w=1200&q=80",
     tags: ["Research", "Prototypes"],
+    category: "design-quality",
+    accent: "#2563eb",
+    visual: "canvas",
   },
   {
     id: "cybersecurity",
@@ -108,6 +143,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
     tags: ["Security", "QA"],
+    category: "design-quality",
+    accent: "#2563eb",
+    visual: "shield",
   },
   {
     id: "digital-marketing",
@@ -119,6 +157,9 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     tags: ["SEO", "Growth"],
+    category: "growth-support",
+    accent: "#2563eb",
+    visual: "growth",
   },
   {
     id: "it-consulting",
@@ -130,5 +171,8 @@ export const services = [
     image:
       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
     tags: ["Advisory", "Support"],
+    category: "growth-support",
+    accent: "#2563eb",
+    visual: "roadmap",
   },
 ];
